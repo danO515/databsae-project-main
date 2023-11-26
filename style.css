@@ -168,12 +168,23 @@ main .right .items ul{
     float: none;
 }
 main .right .items ul li{
+    display: flex;
+    width: 100%;
     padding: 1rem;
-    width: 20%;
 }
-main .right .items ul li img{
-    height: 13rem;
+main .right .items ul li .itemimg{
+    width: 20%;
+    height: 15rem;
 }
 main .right .items ul li span{
-    float: left;
+    font-size: 2rem;
+    font-weight: bold;
+}
+main .right .items ul li button{
+    color: white;
+    padding: 1rem;
+    background-color: brown;
+    border: 1px solid darkred;
+    border-radius: 1rem;
+    cursor: pointer;
 }
