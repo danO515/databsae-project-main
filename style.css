@@ -173,7 +173,7 @@ main .right .items ul li{
     padding: 1rem;
 }
 main .right .items ul li .itemimg{
-    width: 20%;
+    width: 15rem;
     height: 15rem;
 }
 main .right .items ul li span{
@@ -181,8 +181,15 @@ main .right .items ul li span{
     font-weight: bold;
 }
 main .right .items ul li button{
+    float: none;
+    position: relative;
+
     color: white;
+    text-align: center;
+
     padding: 1rem;
+    width: 7rem;
+    height: 4rem;
     background-color: brown;
     border: 1px solid darkred;
     border-radius: 1rem;
